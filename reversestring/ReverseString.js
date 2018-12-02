@@ -11,7 +11,7 @@ function reverse(str) {
      debugger;
      return str.split('').reduce((rev, char) => char + nav, '');
 }
-reverse('asdf');
+reverse('asdf'); //call the debugger function
 
 module.exports = reverse;
 
